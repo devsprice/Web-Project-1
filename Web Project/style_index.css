@@ -1,0 +1,181 @@
+p {
+    color: black;
+}
+
+.home {
+    background-color: rgb(122, 201, 228); 
+}
+
+body::-webkit-scrollbar-thumb {
+    background:rgb(122, 201, 228);
+}
+
+.grid-container {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    word-spacing: .25rem;
+}
+
+
+.grid-item1, .grid-item2, .grid-item3 {
+max-width: 100vw;
+padding: 0;
+margin:4.5rem 0 4rem 0;
+text-align: center;
+border-bottom: .5rem solid rgb(122, 201, 228);
+border-left: .5rem solid rgb(122, 201, 228);
+border-right: .5rem solid rgb(122, 201, 228);
+background-color: #1e1e24;
+border-radius: 2rem;
+}
+
+.free { 
+    width: 50%;	
+    margin: 4rem 0 0 25%;
+    font-size: 4rem;
+    border: 2px solid rgb(122, 201, 228);
+    padding: 1rem;
+    background-color: rgb(122, 201, 228);
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+}
+
+.afree {
+    text-decoration: none;
+}
+
+.header1, .header2, .header3 {
+border: .25rem solid rgb(122, 201, 228);
+padding: 1rem 0 1rem .5rem;
+margin-top: 0;
+border-radius: 1rem 1rem 0 0;
+font-size:  6.5rem;
+background-color: rgb(122, 201, 228);
+font-family: 'Autumn_in_November';
+text-shadow: .15rem .15rem rgb(243, 238, 238)
+}
+
+.filler, .filler2, .filler3 {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+.description1, .description2, .description3 {
+border-top: .5rem double rgb(122, 201, 228);
+padding-top: 1rem;
+font-size: 3rem;
+text-shadow: .15rem .15rem #666;
+/* background-color: #FAF9F6; */
+}
+
+.main-link {
+text-decoration: none;
+color: black;
+}
+
+p {
+color: #FAF9F6;
+padding: 1rem;
+}
+
+.rate {
+    margin: 0 3rem 0 3rem;
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+    border: .25rem double rgb(122, 201, 228);;
+    height: 6rem;
+    max-width: 12rem;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
+
+.ratea {
+    text-decoration: none;
+    height: 6rem;
+    max-width: 12rem;
+    border: 1rem black;
+}
+
+@media (min-width: 800px) {
+    /* .home {
+        font-size: 2rem;
+    } */
+
+    .free {
+        font-size: 2rem;
+    }
+
+    .grid-container {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    .header1, .header2, .header3 {
+        font-size: 3rem;
+    }
+    
+    .filler, .filler2, .filler3 {
+        height: 20rem;
+        width: 20rem;
+    }
+
+    .description1, .description2, .description3 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        /* border: 1px solid black; */
+    }
+
+    .grid-item1, .grid-item2, .grid-item3 {
+        margin: 2rem 1rem 2rem 1rem;
+    }  
+}
+
+
+@media (min-width: 1800px) {
+
+    .grid-container {
+        width: 90vw;
+        margin-top: 8rem;
+        margin-left: 5vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+
+    .description2 {
+        font-size: 2rem;
+        word-spacing: .25rem;
+    }
+
+    .free {
+        width: 12rem;
+        position: absolute;
+        margin: 0 0 0 11rem;
+        border: 2px solid rgb(122, 201, 228);
+        padding: 1rem;
+        background-color: rgb(122, 201, 228);
+        text-decoration: none;
+        color: black;
+        top: 22rem;
+        border-radius: 1rem;
+        font-style: italic;
+        text-shadow: .15rem .15rem rgb(243, 238, 238);
+    }
+    
+    
+}
+    
+

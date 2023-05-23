@@ -1,0 +1,211 @@
+@font-face {
+    font-family: 'Autumn_in_November';
+    src: url(./fonts/Autumn_in_November.ttf);
+}
+
+.blog {
+    background-image: linear-gradient(45deg, white, red, white);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(45deg, white, red, white);
+}
+
+.banner {
+    color: #D2042D;
+}
+
+.rate {
+    margin: 0 0 0 3rem;
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+    border: .25rem double #D2042D;
+    height: 6rem;
+    max-width: 12rem;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.ratea {
+    text-decoration: none;
+    height: 6rem;
+    max-width: 12rem;
+    border: 1rem black;
+}
+
+.grid-container {
+    /* border: 1px solid; */
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    clear: both;
+}
+
+.main {
+    font-family: 'Autumn_in_November';
+    font-size: 8rem;
+    color: #D2042D;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+}
+
+p {
+    margin-bottom: 10rem;
+    color: black;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 700px) {
+    p {
+        font-size: 2rem;
+        width: 80%;
+        margin: 1rem auto 10rem auto;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-container {
+        /* border: 1px solid; */
+        margin: 2rem;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "main main"
+        "item1 item3"
+        "item2 item4";
+        clear: both;
+    }
+
+    .main {
+        grid-area: main;
+        /* border: 1px solid; */
+    }
+
+    .grid-item1 {
+        grid-area: item1;
+        width: 45vw;
+        /* border: 1px solid; */
+        margin-left: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .grid-item2 {
+        grid-area: item2;
+        width: 45vw;
+        /* border: 1px solid; */
+        margin-left: 1rem;
+        margin-bottom: 4rem;
+    }
+
+    .grid-item3 {
+        grid-area: item3;
+        width: 45vw;
+        /* border: 1px solid; */
+        margin-right: 1rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+    }
+
+    .grid-item4 {
+        grid-area: item4;
+        width: 45vw;
+        /* border: 1px solid; */
+        margin-right: 1rem;
+        margin-bottom: 4rem;
+        margin-top: 3rem;
+    }
+
+    img {
+        width: 100%;
+        /* border: 1px solid; */
+    }
+
+    p {
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 1rem auto 10rem auto;
+    }
+    
+}
+
+@media screen and (min-width: 1800px) {
+    .grid-container {
+        /* border: 1px solid; */
+        margin: 2rem auto 2rem auto;
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "main main"
+        "item1 item3"
+        "item2 item4";
+        clear: both;
+    }
+
+    .main {
+        grid-area: main;
+        /* border: 1px solid; */
+    }
+
+    .grid-item1 {
+        grid-area: item1;
+        width: 33vw;
+        /* border: 1px solid; */
+        margin-left: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    .grid-item2 {
+        grid-area: item2;
+        width: 33vw;
+        /* border: 1px solid; */
+        margin-left: 10rem;
+        margin-bottom: 4rem;
+    }
+
+    .grid-item3 {
+        grid-area: item3;
+        width: 33vw;
+        /* border: 1px solid; */
+        margin-right: 10rem;
+        margin-bottom: 4rem;
+        margin-top: 5.5rem;
+    }
+
+    .grid-item4 {
+        grid-area: item4;
+        width: 33vw;
+        /* border: 1px solid; */
+        margin-right: 10rem;
+        margin-bottom: 4rem;
+        margin-top: 5.5rem;
+    }
+
+    .f {
+        width: 100%;
+        padding: .5rem;
+        border-top: .5rem double #D2042D;
+        border-bottom: .5rem double #D2042D;
+    }
+
+    .h {
+        font-size: 1.5rem;
+        width: 100%;
+        padding: .5rem;
+        margin: 1rem auto 10rem auto;
+        border-top: .5rem double #D2042D;
+        border-bottom: .5rem double #D2042D;
+    } 
+}

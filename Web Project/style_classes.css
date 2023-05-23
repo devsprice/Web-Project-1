@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Autumn_in_November';
+    src: url(./fonts/Autumn_in_November.ttf);
+}
+
+p {
+    color: black;
+}
+
+.classes {
+    background-color:  #964B00; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background:  #964B00;
+}
+
+.banner {
+    color: #964B00;
+}
+
+section {
+    max-width: 90vw;
+    margin: 2rem auto 1rem auto;
+    border: 1rem double #964B00;
+    padding: 1rem;
+}
+
+.adult {
+    background-image: url(imgs/adult2.jpg);
+    background-size: 100% 100%;
+}
+.kids {
+    background-image: url(imgs/kids2.jpg);
+    background-size: 100% 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8rem;
+    font-family:'Autumn_in_November';
+    color: #964B00;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+}
+
+h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    font-family:'Autumn_in_November';
+    color: #964B00;
+    text-shadow: .15rem .15rem rgb(5, 5, 5);
+}
+
+img {
+    max-width: 90vw;
+    margin: 3rem auto 2rem auto;
+} 
+
+.classp {
+    font-size: 3rem;
+    color: #964B00;
+    text-shadow: .15rem .15rem #613202;
+}
+
+.join, .interested {
+    width: 50rem;
+    height: 20rem;
+    font-size: 5rem;
+    background: none;
+    font-family:'Autumn_in_November';
+    text-shadow: .15rem .15rem rgb(5, 5, 5);
+    color: #964B00;
+}
+
+.join {
+    margin: 2rem auto 2rem auto;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+}
+
+.link_deco {
+    text-decoration: none;
+}
+
+.rate {
+    margin: 0 0 0 3rem;
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+    border: .25rem double #964B00;
+    height: 6rem;
+    max-width: 12rem;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.ratea {
+    text-decoration: none;
+    height: 6rem;
+    max-width: 12rem;
+    border: 1rem black;
+}
+
+.grid-container {
+    clear: both;
+}
+
+@media (min-width: 1000px) {
+    section {
+        max-width: 60vw;
+    }
+
+    img {
+        max-width: 60vw;
+    }
+
+    h1 {
+        font-size: 6rem;
+        margin: 1rem auto 1rem auto;
+    }
+    
+    h2 {
+        font-size: 4rem;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .classp {
+        font-size: 2rem;
+    }
+    .join, .interested {
+        font-size: 2.5rem;
+        width: 20rem;
+        height: 15rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    section {
+        max-width: 40vw;
+        padding-left: auto;
+        margin: 1rem 2rem 1rem 2rem;
+    }
+    
+    img {
+        max-width: 40vw;
+        height: 40vw;
+        margin: 1rem auto 1rem auto;
+    }
+
+    .adult {
+        float: left;
+    }
+
+    .kids {
+        float: right;
+    }
+
+    .join {
+        clear: both;
+    }
+}

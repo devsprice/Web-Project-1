@@ -1,0 +1,29 @@
+
+fieldset {
+    max-width: fit-content;
+    border: .5em double #5D3FD3;
+    margin: 10em auto 0 auto;
+    background-color: #23232e;
+    color: antiquewhite;
+}
+
+legend {
+    font-size: 2em;
+    border: .1em solid #5D3FD3;
+    background-color: #23232e;
+    padding: .1em;
+}
+
+.sub {
+    margin-left: 30%;
+}
+
+.back {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #23232e;
+    font-size: 2em;
+    border-radius: 4em;
+    padding: .30em;
+    width: fit-content;
+}

@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Autumn_in_November';
+    src: url(./fonts/Autumn_in_November.ttf);
+}
+
+p {
+    color: black;
+}
+
+.shop {
+    background-color:  rgba(255, 0, 0, 0.863); 
+}
+
+body::-webkit-scrollbar-thumb {
+    background:  rgba(255, 0, 0, 0.863);
+}
+
+.banner {
+    color: #D2042D;
+}
+
+.rate {
+    margin: 0 0 0 3rem;
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+    border: .25rem double #D2042D;
+    height: 6rem;
+    max-width: 12rem;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.ratea {
+    text-decoration: none;
+    height: 6rem;
+    max-width: 12rem;
+    border: 1rem black;
+}
+.t {
+    font-family: 'Autumn_in_November';
+    font-size: 10rem;
+    color: #D2042D;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.grid-container {
+    max-width: 100vw;
+    display: grid;
+    clear: both;
+}
+
+.grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5 {
+    width: 100%;
+    border-bottom: 1rem double #D2042D;
+}
+
+.grid-item1 img, .grid-item2 img, .grid-item3 img, .grid-item4 img, .grid-item5 img {
+    width: 80%;
+    margin: 4rem 10% 4rem 10%;
+}
+
+.grid-item1 p, .grid-item2 p, .grid-item3 p, .grid-item4 p, .grid-item5 p {
+    width: 100%;
+    margin: 1.5rem 1.5rem 3rem 1.5rem;
+    font-size: 2rem;
+}
+
+.grid-item1 button, .grid-item2 button, .grid-item3 button, .grid-item4 button, .grid-item5 button {
+    width: 20%;
+    margin-bottom: 5rem;
+    margin-left: 40%;
+    margin-right: 40%;
+} 
+
+
+@media screen and (min-width: 700px) {
+    .grid-item1 img, .grid-item2 img, .grid-item3 img, .grid-item4 img, .grid-item5 img {
+        width: 60%;
+        margin: 4rem 20% 4rem 20%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-item1 img, .grid-item2 img, .grid-item3 img, .grid-item4 img, .grid-item5 img {
+        width: 30%;
+        margin: 4rem 0 4rem 5%;
+    }
+
+    .grid-item1 p, .grid-item2 p, .grid-item3 p, .grid-item4 p, .grid-item5 p {
+        width: 30%;
+        margin: 4rem 5% 3rem 5%;
+        font-size: 1.75rem;
+        float: right;
+    }
+
+    .grid-item1 button, .grid-item2 button, .grid-item3 button, .grid-item4 button, .grid-item5 button {
+        max-width: 15%;
+        margin-bottom: 5rem;
+        margin-left: 40%;
+        margin-right: 40%;
+    } 
+
+}
+
+@media screen and (min-width: 1800px) {
+    .grid-item1 img, .grid-item2 img, .grid-item3 img, .grid-item4 img, .grid-item5 img {
+        width: 15%;
+        margin: 4rem 0 4rem 5%;
+        float: left;
+    }
+
+    .grid-item1 p, .grid-item2 p, .grid-item3 p, .grid-item4 p, .grid-item5 p {
+        width: 30%;
+        margin: 4rem 35% 3rem 5%;
+        font-size: 1.75rem;
+        float: right;
+
+    }
+
+    .grid-item1 button, .grid-item2 button, .grid-item3 button, .grid-item4 button, .grid-item5 button {
+        max-width: 15%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        float: right;
+    } 
+
+}

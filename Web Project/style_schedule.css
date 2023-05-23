@@ -1,0 +1,67 @@
+p {
+    color: black;
+}
+
+.schedule {
+    background-color:   black; 
+    color: #D2042D;
+}
+
+body::-webkit-scrollbar-thumb {
+    background:  black;
+}
+
+.banner {
+    color: #D2042D;
+}
+
+table {
+    margin: 2rem auto 0 auto;
+    font-size: 2.5rem;
+    border: .5rem double red;
+    padding: 1rem;
+    text-align: center;
+    background-image: url(imgs/BJJpd1.jpg);
+    background-size: 100% 100%;
+}
+
+th {
+    border: .25rem solid lightgray;
+    padding: 1rem;
+    color: red;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+}
+
+td {
+    border-right: .25rem solid lightgray;
+    padding: 1rem;
+    color: red;
+    text-shadow: .15rem .15rem rgb(243, 238, 238);
+}
+
+.kpm {
+    border-right: none;
+}
+
+.rate {
+    margin: 0 0 0 3rem;
+    padding: 1rem 0 0 0;
+    font-size: 2rem;
+    border: .25rem double #D2042D;
+    height: 6rem;
+    max-width: 12rem;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.ratea {
+    text-decoration: none;
+    height: 6rem;
+    max-width: 12rem;
+    border: 1rem black;
+}
+
+.grid-container {
+    clear: both;
+}
